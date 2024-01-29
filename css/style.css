@@ -1,0 +1,71 @@
+/* ESTILO GERAL  */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400;1,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #0c0c0c;
+  --hover-color: #1a1919;
+  --btn-color: #193a02;
+  --verdeclaro-color: #05e331;
+  --text-color: #f9fcfe;
+  --textdestaque-color: #818181;
+  --sombreadoverde-color: #09c62f;
+}
+body {
+  background-color: var(--main-color);
+  color: var(--text-color);
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+.configuracao {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* ESTILO DO CABEÇARIO  */
+header {
+  padding: 40px 4%;
+}
+header > .configuracao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: var(--textdestaque-color);
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+header a:hover {
+  color: var(--text-color);
+  transition: all 0.3s;
+  transform: scale(1.05);
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 0 40px;
+}
+header .btn-contato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: var(--verdeclaro-color);
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  
+}
+header .btn-contato button:hover {
+  box-shadow: 0px 0px 8px var(--sombreadoverde-color);
+  color: #193a02;
+  transform: scale(1.05);
+}
