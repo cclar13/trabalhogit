@@ -5,9 +5,202 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biografia da Clarisse</title>
     <!-- LINK DE css  -->
-    <link rel="stylesheet" href="./css/biografia.css">
+    <link rel="stylesheet" href="./css/biografia.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
   </head>
   <body>
-    <h1>AQUI VAI SER A BIOGRAFIA</h1>
+    <header>
+      <div class="configuracao">
+        <div class="logo">
+          <a href="index.php"
+            ><img src="./img/normalicon.png" alt="icon" width="100px"
+          /></a>
+        </div>
+        <!--logo-->
+        <nav class="menu-desktop">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#habilidades-programacao">Habilidades</a></li>
+            <li><a href="#sectionexperiencia">Experiêcia</a></li>
+            <li><a href="biografia.html">Biografia</a></li>
+          </ul>
+        </nav>
+        <!--menu-desktop-->
+        <div class="btn-contato">
+          <a href="#sectioncontato">
+            <button>Contato</button>
+          </a>
+        </div>
+        <!-- btn-contato: -->
+        <div class="btn-abrir-menu" id="btn-menu">
+          <i class="bi bi-list"></i>
+        </div>
+        <!--abrir menu-->
+        <div class="menu-mobile" id="menu-mobile">
+          <div class="btn-fechar">
+            <i class="bi bi-x-lg"></i>
+          </div>
+          <!--btn-fechar-->
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+            <li><a href="#habilidades-programacao">Habilidades</a></li>
+            <li><a href="#sectionexperiencia">Experiêcia</a></li>
+            <li><a href="#sectionbiografia">Biografia</a></li>
+              <li><a href="#sectioncontato">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!--menu-mobile-->
+        <div class="overlay-menu"></div>
+        <!--overlay-menu-->
+      </div>
+      <!-- configuracao  -->
+    </header>
+    <!--header-->
+    <main>
+      
+      <section class="biografia" id="sectionbiografia">
+        <div class="configuracao">
+          <div class="flex">
+            <div class="img-biografia">
+              <img src="./img/normalicon.png" alt="minha img" />
+            </div>
+            <div class="text-biografia">
+              <h1>MINHA <span>BIOGRAFIA.</span></h1>
+              <p>
+                Clarisse de Oliveira Santos, tenho 17 e nasci em Governador
+                Valadares-MG. Estou no meu último ano do ensino médio,concluir
+                meu segundo ano no Colégio Barros Oliveira. Estou realinzano um
+                curso tecnico de Desenvolvimento de Sistemas, na intuição SENAI.
+                Já conclui um curso de informatica na intutuição do CEBRAC (com
+                certificado), e curso de HTML E CSS na intuicão da fundaçã
+                bradesco.Sempre estou a busca de novos aprendizados e
+                conhecimentos.
+              </p>
+              <p class="frasemotivacional">
+                "A inteligência é o único meio que possuímos para dominar os
+                nossos instintos."-Sigmund Freud
+              </p>
+            </div>
+            <!--text-biogrfia-->
+          </div>
+          <!--flex-->
+        </div>
+        <!--configuracao-->
+      </section>
+      <!--biografia-->
+      <section class="habilidades-programacao" id="habilidades-programacao">
+        <div class="configuracao">
+          <h2 class="titulo">HABILIDADES EM <span>DESTAQUE</span></h2>
+          <h3 class="titulo">FRONT<span>END</span></h2>
+          <div class="flex">
+            <div class="habilidades-box">
+              <i class="bi bi-filetype-html"></i>
+              <h3>HTML</h3>
+            </div><!--habilidades-box-->
+            <div class="habilidades-box">
+              <i class="bi bi-filetype-css"></i>
+              <h3>CSS</h3>   
+            </div><!--habilidades-box-->
+            <div class="habilidades-box">
+              <i class="bi bi-filetype-js"></i>
+              <h3>JS</h3>
+            </div><!--habilidades-box-->
+          </div><!--flex-->
+        </div>
+        <!--configuracao-->
+      </section>
+      <!--habilidades-programacao-front-->
+      <section class="habilidades-programacao" id="habilidades-programacao">
+        <div class="configuracao">
+          <h3 class="titulo">BACK<span>END</span></h2>
+          <div class="flex">
+            <div class="habilidades-box">
+              <i class="bi bi-filetype-php"></i>
+              <h3>PHP</h3>
+            </div><!--habilidades-box-->
+            <div class="habilidades-box">
+              <i class="bi bi-filetype-sql"></i>
+              <h3>MYSQL</h3>
+            </div><!--habilidades-box-->
+          </div><!--flex-->
+        </div>
+        <!--configuracao-->
+      </section>
+      <!--habilidades-programacao-back-->
+      <section class="habilidades-profissao" id="habilidades-programacao">
+<div class="configuracao">
+  <h3 class="titulo">MINHAS <span>SOFY SKILL</span></h3>
+  <div class="flex">
+    <div class="habilidades-box">
+      <i class="bi bi-people-fill"></i>
+      <h3 class="titulo-interno">Trabalho em equipe</h3>
+      <p>Trabalhar em equipe é uma habilidade valiosa em muitos ambientes, seja no ambiente de trabalho, na educação ou em atividades esportivas</p>
+    </div><!--habilidades-box-->
+    <div class="habilidades-box">
+      <i class="bi bi-chat-dots"></i>
+      <h3 class="titulo-interno">Comunicação</h3>
+      <p>Uma comunicação eficaz é aquela em que a mensagem é transmitida e compreendida com sucesso, minimizando mal-entendidos e promovendo a clareza</p>
+    </div><!--habilidades-box-->
+    <div class="habilidades-box">
+      <i class="bi bi-signpost-2"></i>
+      <h3 class="titulo-interno">Flexibilidade</h3>
+      <p>Desenvolver a habilidade de flexibilidade contribui para a resiliência, a capacidade de inovação e a eficácia nas interações pessoais e profissionais. </p>
+    </div><!--habilidades-box-->
+  </div><!--flex-->
+</div><!--configuracao-->
+      </section><!--habilidades-profissao-->
+     <section class="esperiencia" id="sectionexperiencia">
+        <div class="configuracao">
+          <h3 class="titulo">MINHAS <span>EXPERIÊNCIAS</span></h3>
+          <div class="flex">
+<div class="esperiencia-box">
+  <i class="bi bi-book"></i>
+  <h3 class="titulo-interno"> Acadêmicas</h3>
+  <p>Ensino Fundamental completo -Colégio Barros Oliveira</p>
+  <p>Ensino Médio incompleto</p>
+</div><!--esperiencia-box-->
+<div class="esperiencia-box">
+  <i class="bi bi-person-workspace"></i>
+  <h3 class="titulo-interno"> Profissionais</h3>
+  <p>Ainda não possuo alguma experiêcia profissional</p>
+</div><!--esperiencia-box-->
+<div class="esperiencia-box">
+  <i class="bi bi-journal-text"></i>
+  <h3 class="titulo-interno">Cursos</h3>
+  <p>informatica - CEBRAC( completo com certificado)</p>
+  <p>Tec. Desenvolvimento de Sistemas - SENAI(em andamento)</p>
+</div><!--esperiencia-box-->
+          </div><!--flex-->
+        </div><!--configuracao-->
+      </section>
+    </main>
+    <footer>
+      <div class="configuracao">
+        <div class="line-footer">
+          <div class="flex">
+            <div class="logo-footer">
+              <img src="./img/felizicon.png" alt="logo" width="100px">
+            </div>
+            <div class="btn-social">
+              <a href><button ><i class="bi bi-instagram"></i></button></a>
+              <a href><button><i class="bi bi-github"></i></button></a>
+              <a href><button><i class="bi bi-facebook"></i></button></i></a>
+            </div>
+          </div>
+        </div> <!--line-footer-->
+        <div class="line-footer borda">
+          <p><i class="bi bi-envelope"></i>
+            <a
+              href="mailto:clarissedeoliveirasantos1.cbo@gmail.com">clarissedeoliveirasantos1.cbo@gmail.com</a>
+          </p>
+        </div> <!--line-footer-->
+      </div><!--configuracao-->
+    </footer> <!--footer-->
+    <script src="./js/js.js"></script>
   </body>
 </html>
