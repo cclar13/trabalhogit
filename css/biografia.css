@@ -171,6 +171,7 @@ section.biografia .flex {
 .biografia .img-biografia {
   position: relative;
   animation: imgflutuar 2s ease-in-out infinite alternate;
+  
 }
 .biografia .img-biografia:hover {
   animation: imgflutuar 2s ease-in-out infinite alternate;
